@@ -211,7 +211,7 @@ with torch.no_grad():
     print(tokenizer.decode(outputs[0]))
 ```
 
-注意: GLM-4V-9B 暂不支持使用 vLLM 方式调用。
+注意: GLM-4V-9B 暂不支持使用 vLLM 方式调用，VQA 和 OCR 专项能力有更高需求的，请试用 [cogvlm2]([basic_demo/README.md](https://github.com/THUDM/CogVLM2))
 
 ## 完整项目列表
 
